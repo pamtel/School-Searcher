@@ -21,15 +21,7 @@ const schoolSchema = new Schema({
         type: String,
         required: true,
     },
-    state: {
-        type: String,
-        required: true,
-    },
     fees: {
-        type: String,
-        required: true,
-    },
-    school_system: {
         type: String,
         required: true,
     },

@@ -34,7 +34,7 @@ class UserServices {
 
   static async registerSchool(req, res) {
     try {
-      const { full_name, email, phone_number, school_type, address, state, fees, school_system, logo, password } = req.body;
+      const { full_name, email, phone_number, school_type, address, fees, logo, password } = req.body;
 
       const user = new Schools({
         full_name,
@@ -42,9 +42,7 @@ class UserServices {
         phone_number,
         school_type,
         address,
-        state,
         fees,
-        school_system,
         logo,
         password,
       });
