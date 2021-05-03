@@ -3,6 +3,7 @@ import logger from "morgan";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import routes from "./route";
+import cors from "cors"
 
 dotenv.config();
 
@@ -23,6 +24,8 @@ db.once("open", () => {
 });
 
 const app = express();
+
+app.use(cors());
 
 app.use(logger("dev"));
 

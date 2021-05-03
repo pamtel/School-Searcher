@@ -6,7 +6,7 @@ import Register from './Register';
 function App() {
   return (
     <div>
-      <Switch>
+      <Switch>  
         <Route path='/' exact>
           <SignIn />
         </Route>

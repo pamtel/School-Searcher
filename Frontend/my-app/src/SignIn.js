@@ -76,11 +76,11 @@ function SignIn() {
                       name="chk"
                       className="custom-control-input"
                     />{" "}
-                    <label for="chk1" className="custom-control-label text-sm">
+                    <label htmlFor="chk1" className="custom-control-label text-sm">
                       Remember me
                     </label>{" "}
                   </div>{" "}
-                  <a href="#" className="ml-auto mb-0 text-sm">
+                  <a className="ml-auto mb-0 text-sm">
                     Forgot Password?
                   </a>
                 </div>
@@ -94,8 +94,8 @@ function SignIn() {
                   {" "}
                   <small className="font-weight-bold">
                     Don't have an account?{" "}
-                    <Link to='/register'>
-                    <a className="text-danger ">Register</a>
+                    <Link to='/register' className="text-danger ">
+                      Register
                     </Link>
                   </small>{" "}
                 </div>
