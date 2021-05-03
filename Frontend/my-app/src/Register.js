@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 import registerImage from "./img/register.svg";
 import { Link } from "react-router-dom";
 import axios from 'axios'
@@ -211,7 +211,7 @@ function Register() {
                     </div>
                   </div>
 
-                  <div className="row py-3 px-3">
+                  <div className="row py-3 ml-3">
                   {" "}
                   <button type="submit" className="btn btn-blue text-center">
                     Register

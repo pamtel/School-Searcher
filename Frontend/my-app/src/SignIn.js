@@ -80,9 +80,9 @@ function SignIn() {
                       Remember me
                     </label>{" "}
                   </div>{" "}
-                  <a className="ml-auto mb-0 text-sm">
+                  <Link to="" className="ml-auto mb-0 text-sm">
                     Forgot Password?
-                  </a>
+                  </Link>
                 </div>
                 <div className="row mb-3 px-3">
                   {" "}
